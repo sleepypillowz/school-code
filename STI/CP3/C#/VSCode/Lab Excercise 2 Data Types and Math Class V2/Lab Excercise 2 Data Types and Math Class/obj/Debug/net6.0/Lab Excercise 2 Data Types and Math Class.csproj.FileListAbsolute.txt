@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\bin\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.exe
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\bin\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.deps.json
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\bin\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.runtimeconfig.json
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\bin\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.dll
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\bin\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.pdb
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.dll
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\refint\Lab Excercise 2 Data Types and Math Class.dll
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.pdb
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\obj\Debug\net6.0\ref\Lab Excercise 2 Data Types and Math Class.dll

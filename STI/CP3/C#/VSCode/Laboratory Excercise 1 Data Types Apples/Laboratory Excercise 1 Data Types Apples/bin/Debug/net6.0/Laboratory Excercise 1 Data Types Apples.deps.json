@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Laboratory Excercise 1 Data Types Apples/1.0.0": {
+        "runtime": {
+          "Laboratory Excercise 1 Data Types Apples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Laboratory Excercise 1 Data Types Apples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

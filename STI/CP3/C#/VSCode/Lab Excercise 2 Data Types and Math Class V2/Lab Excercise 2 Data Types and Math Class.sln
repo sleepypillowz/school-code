@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab Excercise 2 Data Types and Math Class", "Lab Excercise 2 Data Types and Math Class\Lab Excercise 2 Data Types and Math Class.csproj", "{A2CE4BC2-E42B-49E9-8CC9-E1947C72A4FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2CE4BC2-E42B-49E9-8CC9-E1947C72A4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CE4BC2-E42B-49E9-8CC9-E1947C72A4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CE4BC2-E42B-49E9-8CC9-E1947C72A4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CE4BC2-E42B-49E9-8CC9-E1947C72A4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2034B0FF-6B14-49B1-A931-AADDB96D6654}
+	EndGlobalSection
+EndGlobal

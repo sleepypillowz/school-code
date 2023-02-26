@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TP 1 Word Guessing Game/1.0.0": {
+        "runtime": {
+          "TP 1 Word Guessing Game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP 1 Word Guessing Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

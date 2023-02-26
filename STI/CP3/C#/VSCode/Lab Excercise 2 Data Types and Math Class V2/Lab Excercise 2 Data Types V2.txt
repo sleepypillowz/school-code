@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: Lab Excercise 2 Data Types and Math Class, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>Lab Excercise 2 Data Types and Math Class -> C:\Users\alexa\source\repos\Lab Excercise 2 Data Types and Math Class V2\Lab Excercise 2 Data Types and Math Class\bin\Debug\net6.0\Lab Excercise 2 Data Types and Math Class.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

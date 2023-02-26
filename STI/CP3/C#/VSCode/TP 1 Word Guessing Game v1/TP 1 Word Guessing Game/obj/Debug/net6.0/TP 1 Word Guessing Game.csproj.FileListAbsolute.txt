@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\bin\Debug\net6.0\TP 1 Word Guessing Game.exe
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\bin\Debug\net6.0\TP 1 Word Guessing Game.deps.json
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\bin\Debug\net6.0\TP 1 Word Guessing Game.runtimeconfig.json
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\bin\Debug\net6.0\TP 1 Word Guessing Game.dll
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\bin\Debug\net6.0\TP 1 Word Guessing Game.pdb
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.AssemblyInfo.cs
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.dll
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\refint\TP 1 Word Guessing Game.dll
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.pdb
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\TP 1 Word Guessing Game.genruntimeconfig.cache
+C:\Users\alexa\source\repos\TP 1 Word Guessing Game\TP 1 Word Guessing Game\obj\Debug\net6.0\ref\TP 1 Word Guessing Game.dll

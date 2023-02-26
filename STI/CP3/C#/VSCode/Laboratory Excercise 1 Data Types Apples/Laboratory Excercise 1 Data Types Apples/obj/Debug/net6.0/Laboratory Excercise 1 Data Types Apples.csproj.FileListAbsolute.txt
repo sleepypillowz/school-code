@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\bin\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.exe
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\bin\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.deps.json
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\bin\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.runtimeconfig.json
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\bin\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.dll
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\bin\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.pdb
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.dll
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\refint\Laboratory Excercise 1 Data Types Apples.dll
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.pdb
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\Laboratory Excercise 1 Data Types Apples.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Laboratory Excercise 1 Data Types Apples\Laboratory Excercise 1 Data Types Apples\obj\Debug\net6.0\ref\Laboratory Excercise 1 Data Types Apples.dll

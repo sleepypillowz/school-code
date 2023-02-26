@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\bin\Debug\net6.0\Basic Input Output.exe
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\bin\Debug\net6.0\Basic Input Output.deps.json
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\bin\Debug\net6.0\Basic Input Output.runtimeconfig.json
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\bin\Debug\net6.0\Basic Input Output.dll
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\bin\Debug\net6.0\Basic Input Output.pdb
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.dll
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\refint\Basic Input Output.dll
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.pdb
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\Basic Input Output.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Basic Input Output\Basic Input Output\obj\Debug\net6.0\ref\Basic Input Output.dll

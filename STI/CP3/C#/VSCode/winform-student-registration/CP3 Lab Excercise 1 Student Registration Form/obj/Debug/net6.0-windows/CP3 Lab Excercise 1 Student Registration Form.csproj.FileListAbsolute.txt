@@ -1,0 +1,18 @@
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\bin\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.exe
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\bin\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.deps.json
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\bin\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.runtimeconfig.json
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\bin\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.dll
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\bin\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.pdb
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3_Lab_Excercise_1_Student_Registration_Form.Form1.resources
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.csproj.GenerateResource.cache
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.AssemblyInfo.cs
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.dll
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\refint\CP3 Lab Excercise 1 Student Registration Form.dll
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.pdb
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3 Lab Excercise 1 Student Registration Form.genruntimeconfig.cache
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\ref\CP3 Lab Excercise 1 Student Registration Form.dll
+C:\Users\alexa\source\repos\CP3 Lab Excercise 1 Student Registration Form\CP3 Lab Excercise 1 Student Registration Form\obj\Debug\net6.0-windows\CP3_Lab_Excercise_1_Student_Registration_Form.Properties.Resources.resources
