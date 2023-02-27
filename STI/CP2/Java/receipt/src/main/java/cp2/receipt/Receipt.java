@@ -1,7 +1,6 @@
 package cp2.receipt;
 
 import java.util.*;
-import java.text.DecimalFormat;
 
 public class Receipt {
     
@@ -48,7 +47,7 @@ public class Receipt {
     
     public static void main(String[] args) {
  
-        Mavenproject3 exe = new Mavenproject3();
+        Receipt exe = new Receipt();
 
         exe.readInput();
         exe.setItemName("(s)");
