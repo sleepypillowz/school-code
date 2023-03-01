@@ -1,15 +1,12 @@
 package cp2.receipt;
 
 import java.util.*;
-import java.text.DecimalFormat;
 
 public class Receipt {
     
     Scanner s = new Scanner(System.in);
     
     //declaring variables
-    private static final DecimalFormat df = new DecimalFormat("0.00");
-    
     private String ItemName;
     private double ItemPrice;
     private int ItemQuantity;
@@ -35,20 +32,17 @@ public class Receipt {
         ItemName = s.nextLine();  
         
         System.out.println("Enter the quantity and price seperated by a space.");
-        String inp= s.nextLine(); //Input
-        
-        String[] inpArr = inp.split(" "); //Input Array for "seperated by a space"
-        ItemQuantity = Integer.parseInt(inpArr[0]);
-        ItemPrice = Double.parseDouble(inpArr[1]);
+        ItemQuantity = s.nextInt();
+        ItemPrice = s.nextInt();
     }
     
-       public String getItemName() {
+    public String getItemName() {
         return ItemName; 
     }
     
     public void writeOutput() {
-        System.out.println("You are purchasing " + ItemQuantity + " " + ItemName + " at " + ItemPrice + " each.");
-        System.out.print("Amount due is " + df.format(amountDue));
+        System.out.println("You are purchasing  " + ItemQuantity + " " + ItemName + " at " + ItemPrice + " each.");
+        System.out.printf("Amount due is %.2f", getTotalCost());
     }   
     
     public static void main(String[] args) {
