@@ -1,6 +1,6 @@
 package cp2.payroll.program;
 
-public class FullTimeEmployee {
+public class FullTimeEmployee extends PartTimeEmployee {
     
     private double monthlySalary;
     

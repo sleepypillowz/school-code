@@ -1,6 +1,7 @@
 package cp2.payroll.program;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class RunEmployee extends Employee {
 
@@ -8,6 +9,8 @@ public class RunEmployee extends Employee {
 
         Scanner s = new Scanner(System.in);
         RunEmployee e = new RunEmployee();
+        DecimalFormat f = new DecimalFormat("0.00");
+
 
         System.out.print("Enter name: ");
         e.setName(s.nextLine());
@@ -25,12 +28,12 @@ public class RunEmployee extends Employee {
 
                     //input
                     System.out.println("--- Full Time Employee ---");
-                    //System.out.print("Enter Monthly Salary: ");
-                    //e.setMonthlySalary(s.nextDouble());
+                    System.out.print("Enter Monthly Salary: ");
+                    e.setMonthlySalary(s.nextDouble());
 
                     //output
                     System.out.println("Name: " + e.getName());
-                    //System.out.println("Monthly Salary: " + e.getMonthlySalary());
+                    System.out.println("Monthly Salary: " + e.getMonthlySalary());
                     break;
 
                 case "P":
@@ -38,14 +41,14 @@ public class RunEmployee extends Employee {
 
                     //input
                     System.out.println("--- Part Time Employee ---");
-                    //System.out.println("Enter rate per hour and  no. of hours worked seperated by a space:");
-                    // e.setRatePerHour(s.nextDouble());
-                    //  e.setHoursWorked(s.nextInt());
-                    //  e.setWage(e.getRatePerHour()*e.getHoursWorked());
+                    System.out.println("Enter rate per hour and  no. of hours worked seperated by a space:");
+                    e.setRatePerHour(s.nextDouble());
+                    e.setHoursWorked(s.nextInt());
+                    e.setWage(e.getRatePerHour() * e.getHoursWorked());
 
                     //output   
                     System.out.println("Name: " + e.getName());
-                    //  System.out.println("Wage: " + e.getWage());
+                    System.out.printf("Wage: " + f.format(e.getWage()));
                     break;
 
                 default:

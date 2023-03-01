@@ -1,6 +1,6 @@
 package cp2.payroll.program;
 
-public class Employee{
+public class Employee extends FullTimeEmployee{
     
     private String name;
     
