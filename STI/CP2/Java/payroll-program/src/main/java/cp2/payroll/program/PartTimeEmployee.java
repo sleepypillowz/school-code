@@ -28,6 +28,5 @@ public class PartTimeEmployee {
       
     public double getWage() {
     return wage;
-    }
-    
+    }  
 }
