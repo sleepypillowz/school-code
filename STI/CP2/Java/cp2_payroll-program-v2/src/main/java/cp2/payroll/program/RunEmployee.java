@@ -8,6 +8,7 @@ public abstract class RunEmployee implements Employee.employeeInfo {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
+        DecimalFormat f = new DecimalFormat("0.00");
         RunEmployee e = new RunEmployee() {
             @Override
             public void setName(String newName) {
@@ -59,9 +60,7 @@ public abstract class RunEmployee implements Employee.employeeInfo {
                 throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
             }
         };
-        DecimalFormat f = new DecimalFormat("0.00");
-
-
+        
         System.out.print("Enter name: ");
         e.setName(s.nextLine());
 
