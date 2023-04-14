@@ -1,9 +1,9 @@
-package cp2.quiz.bee;
+package cp2.quiz.bee2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class QuizBee2 {
 
     public static void main(String[] args) throws InterruptedException {
 
