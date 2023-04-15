@@ -35,6 +35,11 @@ public class Main {
         String[] array
             = listOfStrings.toArray(new String[0]);
        
+        
+        for (int i = 0; i < array.length i++) {
+            
+        }
+        
         // printing each line of file
         // which is stored in array
         for (String str : array) {
