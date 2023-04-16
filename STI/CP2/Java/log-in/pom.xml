@@ -9,6 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <exec.mainClass>cp2.log.in.LogIn</exec.mainClass>
+        <exec.mainClass>cp2.log.in2.LogIn2</exec.mainClass>
     </properties>
+    <name>log-in</name>
 </project>
