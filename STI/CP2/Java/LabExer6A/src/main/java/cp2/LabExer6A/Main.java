@@ -1,5 +1,6 @@
+//word-guess
 //note if file is being written to other txt it can't print here in console.
-package cp2.word.guess;
+package cp2.LabExer6A;
 
 import java.io.File;
 import java.io.FileNotFoundException;

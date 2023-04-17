@@ -17,8 +17,8 @@ public class Main {
         int choice;
         String username = "";
         String password = "";
-        String registeredUsername = "";
-        String registeredPassword = "";
+        String registeredUsername;
+        String registeredPassword;
         String[] fileContentArray = new String[2];
         String login;
 
@@ -28,16 +28,15 @@ public class Main {
 
             for (int i = 0; i < fileContentArray.length; i++) {
                 fileContentArray[i] = fileContent.concat(sf.nextLine());
-                System.out.println(fileContentArray[i]);
             }
         }
         registeredUsername = fileContentArray[0];
         registeredPassword = fileContentArray[1];
 
-        System.out.println("Would you like to Register or Login?\nPress 0 for Register\nPress 1 for Login");
+        System.out.println("Hi! Would you like to Register or Login?\nPress 0 for Register\nPress 1 for Login");
         try {
-        choice = s.nextInt();
-        
+            choice = s.nextInt();
+
             if (choice == 0) {
 
                 System.out.println("REGISTER");
@@ -53,7 +52,6 @@ public class Main {
 
                 System.out.println("Registered!");
                 System.out.println("Welcome, " + registeredUsername);
-                System.out.println("Your Password is: " + registeredPassword);
                 System.out.println("Would you like to login?\nenter y or n");
                 login = s.next();
                 if ("y".equals(login)) {
@@ -71,9 +69,9 @@ public class Main {
                     System.out.print("Enter Password: ");
                     password = s.next();
                     if (username.equals(registeredUsername) && password.equals(registeredPassword)) {
-                        System.out.println("Logged in!");
+                        System.out.println("Successfully logged in");
                     } else {
-                        System.out.println("Wrong username or psssword.");
+                        System.out.println("Incorrect username or psssword");
                     }
                 }
 
