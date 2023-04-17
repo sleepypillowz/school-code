@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cp2</groupId>
-    <artifactId>LabExer6A</artifactId>
+    <artifactId>word-guess</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
@@ -11,5 +11,5 @@
         <maven.compiler.target>19</maven.compiler.target>
         <exec.mainClass>cp2.word.guess2.WordGuess2</exec.mainClass>
     </properties>
-    <name>LabExer6A</name>
+    <name>word-guess</name>
 </project>
