@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: 16px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info {
+    margin-top: 20%;
+    border: 1px solid black;
+}
+
+#banner {
+    
+    object-fit: cover;
+    object-position: 100% 50%;
+    max-height: 48vh;
+}
+
+#profile {
+    display: inline;
+    max-height: 26vh;
+    position: absolute;
+    left: 10vh;
+}
+
+#name {
+    position: relative;
+    left: 40vh;
+}
+
+
+
+@media screen and (max-width: 265px) {
+    #profile {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* If the screen size is 480px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 412px) {
+    #profile {
+        max-height: 10vh;
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%, -50%);
+    }
+    #name {
+        left: 0vh;
+        font-size: 16px;
+    }
+    .info {
+        position: absolute;
+        left: 50%;
+        top: 23%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+/*
+@media screen and (max-width: 384px) {
+    #name {
+        left: 0vh;
+        font-size: 1em;
+        
+    }
+
+
+}
+*/
