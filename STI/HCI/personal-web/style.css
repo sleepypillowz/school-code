@@ -31,8 +31,8 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.info {
-    margin-top: 20%;
+.container {
+    margin-top: 10vh;
     border: 1px solid black;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 #name {
-    position: relative;
+    position: absolute;
     left: 40vh;
 }
 
@@ -66,8 +66,8 @@ body {
     }
 }
 
-/* If the screen size is 480px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 412px) {
+/* If the screen size is 428px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 428px) {
     #profile {
         max-height: 10vh;
         position: absolute;
@@ -76,25 +76,9 @@ body {
         transform: translate(-50%, -50%);
     }
     #name {
-        left: 0vh;
-        font-size: 16px;
-    }
-    .info {
         position: absolute;
         left: 50%;
-        top: 23%;
+        top: 33%;
         transform: translate(-50%, -50%);
     }
-
 }
-/*
-@media screen and (max-width: 384px) {
-    #name {
-        left: 0vh;
-        font-size: 1em;
-        
-    }
-
-
-}
-*/
