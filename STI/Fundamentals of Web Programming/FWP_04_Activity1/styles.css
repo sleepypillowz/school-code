@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.column {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.column h2 {
+    font-size: 18px;
+    color: #fff;
+}
