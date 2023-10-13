@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.image-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.image-container p {
+    font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .image-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        padding: 5px;
+    }
+    .image-container h2 {
+        font-size: 20px;
+    }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive design */
+    overflow: hidden;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the video horizontally */
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
