@@ -18,7 +18,7 @@ header {
 }
 
 .image-container {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -27,11 +27,6 @@ header {
 .image-container img {
     max-width: 100%;
     height: auto;
-}
-
-.image-container h2 {
-    font-size: 24px;
-    margin: 10px 0;
 }
 
 .image-container p {
@@ -43,6 +38,7 @@ header {
     .image-container {
         padding: 10px;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -52,13 +48,17 @@ header {
     .image-container h2 {
         font-size: 20px;
     }
+
+    .video-container {
+        max-width: 800px; /* Adjust the maximum width as needed */
+    }
+    
 }
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive design */
-    overflow: hidden;
-    max-width: 800px; /* Adjust the maximum width as needed */
+    padding-bottom: 22%; /* 56.25% 16:9 aspect ratio for responsive design */
+    max-width: 440px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the video horizontally */
 }
 
