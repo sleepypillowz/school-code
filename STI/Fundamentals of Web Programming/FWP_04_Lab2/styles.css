@@ -17,50 +17,53 @@ header {
     border: 1px solid #ccc;
 }
 
-.image-container {
-    max-width: 400px;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
 }
 
-.image-container img {
+.image {
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.image img {
     max-width: 100%;
     height: auto;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
 }
 
-.image-container p {
+.image p {
     font-size: 16px;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .image-container {
-        padding: 10px;
+    .image-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
-
 }
 
 @media (max-width: 480px) {
-    .image-container {
-        padding: 5px;
+    .image-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .image-container h2 {
+    .image p {
         font-size: 20px;
     }
-
-    .video-container {
-        max-width: 800px; /* Adjust the maximum width as needed */
-    }
-    
 }
 
 .video-container {
     position: relative;
-    padding-bottom: 22%; /* 56.25% 16:9 aspect ratio for responsive design */
-    max-width: 440px; /* Adjust the maximum width as needed */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive design */
+    max-width: 800px; /* Set the maximum width to match the grid's max-width */
     margin: 0 auto; /* Center the video horizontally */
 }
+
 
 .video {
     position: absolute;
