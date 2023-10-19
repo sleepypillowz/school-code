@@ -1,74 +1,30 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    color: #333;
     text-align: center;
-}
-
-header {
-    background: #f2f2f2;
-    padding: 20px;
-    border: 1px solid #ccc;
 }
 
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.image {
-    border: 1px solid transparent;
-    text-align: center;
 }
 
 .image img {
     max-width: 100%;
-    height: auto;
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
 }
 
-.image p {
-    font-size: 16px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    .image-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .image-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .image p {
-        font-size: 20px;
-    }
+main {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive design */
-    max-width: 800px; /* Set the maximum width to match the grid's max-width */
-    margin: 0 auto; /* Center the video horizontally */
+    padding-bottom: 56.25%;
 }
-
 
 .video {
     position: absolute;
-    top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
 }
