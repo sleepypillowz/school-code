@@ -1,0 +1,10 @@
+.border-box {
+  width: 200px; 
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-top: 5px solid yellow;
+  border-bottom: 5px solid purple;
+  border-left: 2px dotted lightblue;
+  border-right: 2px dashed orange;
+}
