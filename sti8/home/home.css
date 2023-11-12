@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  position:relative;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  display: inline;
+  margin-left: 50px;
+  margin-right: -300px;
+  margin-top: 50px;
+  z-index:-5
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.w3-sidebar w3-bar-block w3-dark-grey w3-animate-left{
+	background-color: black;
+}

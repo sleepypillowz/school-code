@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=" =en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title> Chat Bot </title>
+
+    <link rel="stylesheet" href="chat.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+</head>
+
+<body>
+
+
+    <!-- THIS IS CHAT BAR BLOCK-->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">
+            Hi classmate! How can we help?
+            <i class="fa fa-search"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+
+                        <!-- THIS IS THE MSG CONTAINER-->
+
+                        <div class="outer-container">
+                            <div class="chat-container">
+
+                                <!-- MESSAGES-->
+                                <div id="chatbox">
+                                    <h5 id="chat-timestamp"></h5>
+                                    <p id="botStarterMessage" class="botText"><span>Loading..</span></p>
+                                <!-- FAQ-->
+                                
+                                <div class="FAQs">
+                                    <h4>Frequently Asked Questions <b>(FAQs)</b></h4>
+                                    <div class="accordion">
+                                        <div class="icon"> </div>
+                                        
+                                        <h6> What is the purpose of this real-time locator?</h6>
+                                    </div>
+                                    <div class="panel">
+                                        <p>This real-time locator aims to provide students the convinience of locating their respective coaches efficiently 
+                                            and serving as an integrated attendance system for STI Munoz EDSA coaches.</p>
+                                    </div>
+
+                                    <div class="accordion">
+                                        <div class="icon"> </div>
+                                        <h6>Who are allowed to use the real-time locator?</h6>
+                                    </div>
+                                    <div class="panel">
+                                        <p>STI Munoz EDSA's real-time locator can be used by the college's students, and faculty members.</p>
+                                    </div>
+                                    
+                                    <div class="accordion">
+                                        <div class="icon"> </div>
+                                        <h6>When can I use the real-time locator?</h6>
+                                    </div>
+                                    <div class="panel">
+                                        <p>STI Munoz EDSA's real-time locator can be used during school hours.</p>
+                                    </div>
+                                </div>
+                            
+                                <!--USER INPUT BOX-->
+
+                                <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Start using real-time locator">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                        
+                                <i class='fas fa-eye'></i>
+
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="static/scripts/chat.js"></script>
+    <script src="static/scripts/responses.js"></script>
+
+</body>
+
+
+
+</html>
