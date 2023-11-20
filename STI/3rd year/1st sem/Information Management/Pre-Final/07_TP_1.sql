@@ -2,8 +2,8 @@
 -- note removed price, changed some int to varchar, removed select from, removed create database
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
-    FirstName VARCHAR(32),
-	LastName VARCHAR(32),
+    FirstName VARCHAR(16),
+	LastName VARCHAR(16),
 	Email VARCHAR(32),
 	Gender VARCHAR(8),
 	Birthdate DATE
@@ -12,8 +12,8 @@ CREATE TABLE Customers (
 CREATE TABLE Vendor (
     VendorID VARCHAR(8) PRIMARY KEY,   
     Name VARCHAR(32),
-	ContactNum INT,
-	CityAddress VARCHAR(32)
+	ContactNum VARCHAR(16),
+	CityAddress VARCHAR(16)
 );
 
 CREATE TABLE Products (
@@ -49,11 +49,11 @@ VALUES
 ('P030007', 'Nissin Eggnog Cookies', 850, 'V00003');
 
 UPDATE Products
-SET Quantity += 274
+SET Quantity = Quantity + 274
 WHERE ProductID = 'P000102';
 
 UPDATE Products
-SET Quantity -= 42
+SET Quantity = Quantity - 42
 WHERE ProductID = 'P030007';
 
 -- Determine which products have a quantity of less than 1000.
@@ -68,5 +68,6 @@ JOIN Vendor AS V ON P.VendorID = V.VendorID -- Join Vendor alias V if Products V
 WHERE P.Quantity < 1000; -- Wherein the quantity of the Product is less than one thousand
 -- note this is called inner join as similar VendorID is combined
 
-DELETE FROM Customers WHERE CustomerID = '02000311241';
+DELETE FROM Customers WHERE CustomerID = 02000311241;
+
 -- End Part 2
