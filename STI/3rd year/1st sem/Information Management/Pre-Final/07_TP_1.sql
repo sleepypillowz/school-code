@@ -1,5 +1,4 @@
 -- Start Part 1
--- note removed price, changed some int to varchar, removed select from, removed create database
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
     FirstName VARCHAR(16),
@@ -26,7 +25,6 @@ CREATE TABLE Products (
 -- End Part 1
 
 -- Start Part 2
--- Add rows to the columns in the Customers table using five of your classmates' personal information. For the CustomerID, use their Student Numbers.
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email, Gender, Birthdate)
 VALUES 
 (02000311241, 'Iskra', 'Jarvi', 'iskrajarvi@gmail.com', 'Female', '2003-08-13'),
@@ -57,11 +55,9 @@ SET Quantity = Quantity - 42
 WHERE ProductID = 'P030007';
 
 -- Determine which products have a quantity of less than 1000.
-
 SELECT * FROM Products WHERE Quantity < 1000;
 
 -- Determine which products have a quantity of less than 1000 then display the product's vendor ID and name.
-
 SELECT P.ProductID, P.Description, P.Quantity, P.VendorID, V.Name -- Column Header
 FROM Products AS P -- From Products alias P
 JOIN Vendor AS V ON P.VendorID = V.VendorID -- Join Vendor alias V if Products VendorID is equal to Vendors VendorID
@@ -69,5 +65,5 @@ WHERE P.Quantity < 1000; -- Wherein the quantity of the Product is less than one
 -- note this is called inner join as similar VendorID is combined
 
 DELETE FROM Customers WHERE CustomerID = 02000311241;
-
+SELECT * FROM Customers;
 -- End Part 2
