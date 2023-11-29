@@ -29,11 +29,11 @@ CREATE TABLE Products (
 -- Add rows to the columns in the Customers table using five of your classmates' personal information. For the CustomerID, use their Student Numbers.
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email, Gender, Birthdate)
 VALUES 
-(02000311241, 'Alexander', 'Acojido', 'alexacojido@gmail.com', 'Male', '2002-08-26'),
-(02000311242, 'Alexander', 'Acojido', 'alexacojido@gmail.com', 'Male', '2002-08-26'),
-(02000311243, 'Alexander', 'Acojido', 'alexacojido@gmail.com', 'Male', '2002-08-26'),
-(02000311244, 'Alexander', 'Acojido', 'alexacojido@gmail.com', 'Male', '2002-08-26'),
-(02000311245, 'Alexander', 'Acojido', 'alexacojido@gmail.com', 'Male', '2002-08-26');
+(02000311241, 'Iskra', 'Jarvi', 'iskrajarvi@gmail.com', 'Female', '2003-08-13'),
+(02000311242, 'Patrik', 'Madsen', 'patrikmadsen@gmail.com', 'Male', '2002-07-04'),
+(02000311243, 'Ema', 'Idowu', 'emaidowu@gmail.com', 'Female', '2002-11-26'),
+(02000311244, 'Helmut', 'Saari', 'helmutsaari@gmail.com', 'Male', '2002-12-10'),
+(02000311245, 'Anil', 'Banerjee', 'anilbanerjee@gmail.com', 'Male', '2003-08-13');
 
 INSERT INTO Vendor (VendorID, Name, ContactNum, CityAddress)
 VALUES 
