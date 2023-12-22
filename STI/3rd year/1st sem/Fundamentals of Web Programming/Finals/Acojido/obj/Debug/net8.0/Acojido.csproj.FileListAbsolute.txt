@@ -1,0 +1,15 @@
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\bin\Debug\net8.0\Acojido.exe
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\bin\Debug\net8.0\Acojido.deps.json
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\bin\Debug\net8.0\Acojido.runtimeconfig.json
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\bin\Debug\net8.0\Acojido.dll
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\bin\Debug\net8.0\Acojido.pdb
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.AssemblyInfo.cs
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.sourcelink.json
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.dll
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\refint\Acojido.dll
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.pdb
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\Acojido.genruntimeconfig.cache
+C:\Users\alexa\Documents\GitHub\school-code\STI\3rd year\1st sem\Fundamentals of Web Programming\Finals\Acojido\obj\Debug\net8.0\ref\Acojido.dll
