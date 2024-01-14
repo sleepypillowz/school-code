@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <!-- not sure what this does although seemingly important -->
+    <meta charset="UTF-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel="stylesheet">
+
+    <!-- Title -->
+    <title>Maxxe</title>
+
+    <!-- Website Taskbar Icon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <!-- Page Buttons -->
+            <li><a class="" href="home.html"><img src="images/favicon.ico" width="40" height="40"></a></li>
+            <li><a class="nav active" href="shop.html">Shop</a></li>
+
+            <!-- Social Icons -->
+            <li>
+                <a class="nav" href="https://www.facebook.com/maxxeph" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="https://www.instagram.com/maxxe_ph/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="https://shopee.ph/maxxe_ph/" target="_blank">
+                    <ion-icon name="bag-outline"></ion-icon>
+                </a>
+            </li>
+
+            <li style="float:right">
+                <a id="cart-icon">
+                    <ion-icon name="bag-outline"></ion-icon>
+        </ul>
+    </nav>
+
+    <header2>
+        <!-- Nav -->
+        <div class="nav2">
+            <a href="#" class="logo"></a>
+
+            <!-- Cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- Content -->
+                <div class="cart-content">
+
+                </div>
+
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">P0</div>
+                </div>
+
+                <!-- Buy Button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+
+                <!-- Cart Close -->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header2>
+
+    <!-- Shop -->
+    <section class="container">
+
+        <!-- Content -->
+        <h2 class="section-title">RENNAISSANCE MATTE LIP TINTS COLLECTION</h2>
+        <div class="shop-content">
+            <!-- Box 1 -->
+            <div class="product-box">
+                <img src="images/cezzane.jpg" alt="" class="product-img" onmouseover="this.src='images/hover_cezanne.jpg';" onmouseout="this.src='images/cezzane.jpg';">
+                <h2 class="product-title">Cezanne</h2>
+                <span class="price">P110</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="product-box">
+                <img src="images/monet.jpg" alt="" class="product-img" onmouseover="this.src='images/hover_monet.jpg';" onmouseout="this.src='images/monet.jpg';">
+                <h2 class="product-title">Monet</h2>
+                <span class="price">P110</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 3 -->
+            <div class="product-box">
+                <img src="images/van gogh.jpg" alt="" class="product-img" onmouseover="this.src='images/hover_vangogh.jpg';" onmouseout="this.src='images/van gogh.jpg';">
+                <h2 class="product-title">Van Gogh</h2>
+                <span class="price">P110</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 4 -->
+            <div class="product-box">
+                <img src="images/picasso.jpg" alt="" class="product-img" onmouseover="this.src='images/hover_picasso.jpg';" onmouseout="this.src='images/picasso.jpg';">
+                <h2 class="product-title">Picasso</h2>
+                <span class="price">P110</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 5 -->
+            <div class="product-box">
+                <img src="images/rebrandt.jpg" alt="" class="product-img" onmouseover="this.src='images/hover_rebrandt.jpg';" onmouseout="this.src='images/rebrandt.jpg';">
+                <h2 class="product-title">Rebrandt</h2>
+                <span class="price">P110</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+
+        <h2 class="section-title">HTTYD GEL LIP TINTS COLLECTION</h2>
+        <div class="shop-content">
+            <!-- Box 6 -->
+            <div class="product-box">
+                <img src="images/astrids.jpg" alt="" class="product-img" onmouseover="this.src='images/astrid.jpg';" onmouseout="this.src='images/astrids.jpg';">
+                <h2 class="product-title">Astrid</h2>
+                <span class="price">P89</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 7 -->
+            <div class="product-box">
+                <img src="images/heathers.jpg" alt="" class="product-img" onmouseover="this.src='images/heather.jpg';" onmouseout="this.src='images/heathers.jpg';">
+                <h2 class="product-title">Heather</h2>
+                <span class="price">P89</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 8 -->
+            <div class="product-box">
+                <img src="images/hiccups.jpg" alt="" class="product-img" onmouseover="this.src='images/hiccup.jpg';" onmouseout="this.src='images/hiccups.jpg';">
+                <h2 class="product-title">Hiccup</h2>
+                <span class="price">P89</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+
+        <h2 class="section-title">PIXIE COLLECTION</h2>
+        <div class="shop-content">
+
+            <!-- Box 9 -->
+            <div class="product-box">
+                <img src="images/pink.jpg" alt="" class="product-img" onmouseover="this.src='images/hoverpink.jpg';" onmouseout="this.src='images/pink.jpg';">
+                <h2 class="product-title">Blossom</h2>
+                <span class="price">P79</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 10 -->
+            <div class="product-box">
+                <img src="images/bayolet.jpg" alt="" class="product-img" onmouseover="this.src='images/hoverviolet.jpg';" onmouseout="this.src='images/bayolet.jpg';">
+                <h2 class="product-title">Violet</h2>
+                <span class="price">P79</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 11 -->
+            <div class="product-box">
+                <img src="images/blue.jpg" alt="" class="product-img" onmouseover="this.src='images/hoverblue.jpg';" onmouseout="this.src='images/blue.jpg';">
+                <h2 class="product-title">Bubbles</h2>
+                <span class="price">P79</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--link TO JS-->
+    <script src="main.js"></script>
+    <!-- import icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
