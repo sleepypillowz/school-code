@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <style>
+        /* Add your CSS styles here */
+
+    </style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var buttons = document.querySelectorAll('.answer-btn');
+        var resultDiv = document.getElementById('result');
+        var resultDiv2 = document.getElementById('result2');
+        var submit = document.getElementById('submit-btn');
+        var input = document.querySelector('input[type="text"]');
+
+        buttons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                if (button.textContent === 'Creeper') {
+                    button.style.backgroundColor = '#5DBB63'; // Green
+                    resultDiv.textContent = 'Correct!';
+                } else {
+                    button.style.backgroundColor = '#CD5C5C'; // Red
+                    button.style.color = '#FFFFFF';
+                    resultDiv.textContent = 'Incorrect';
+                }
+            });
+        });
+
+        submit.addEventListener('click', function() {
+            var userInput = input.value.toLowerCase(); // Get user's input and convert to lowercase
+            if (userInput === 'ada lovelace') {
+                submit.style.backgroundColor = '#5DBB63'; // Green
+                resultDiv2.textContent = 'Correct!';
+            } else {
+                submit.style.backgroundColor = '#CD5C5C'; // Red
+                submit.style.color = '#FFFFFF';
+                resultDiv2.textContent = 'Incorrect';
+            }
+        });
+    });
+</script>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <div id="result"></div>
+            <hr>
+            <!-- TODO: Add multiple choice question here -->
+            <h3>What was the name of the first computer virus to spread in the wild?</h3>
+            <button class="answer-btn">Creeper</button>
+            <button class="answer-btn">ILOVEYOU</button>
+            <button class="answer-btn">Melissa</button>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <div id="result2"></div>
+            <hr>
+            <!-- Add your free response question here -->
+            <h3>What is the name of the first programmer?</h3>
+            <input type="text">
+            <button id="submit-btn">Check Answer</button>
+        </div>
+    </div>
+</body>
+</html>
