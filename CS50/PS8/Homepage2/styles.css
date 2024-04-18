@@ -1,0 +1,44 @@
+body {
+  background-color: #B5C18E;
+
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #DEAC80;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+a:hover {
+  background-color: #B99470;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  background-color: #F7DCB9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}

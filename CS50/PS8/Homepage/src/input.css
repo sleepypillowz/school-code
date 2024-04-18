@@ -15,3 +15,7 @@ button {
   @apply mx-6 my-2 rounded-xl border-transparent bg-gray-700 px-8 shadow-xl;
 }
 
+.name {
+  @apply ml-2 font-semibold;
+}
+

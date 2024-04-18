@@ -558,20 +558,8 @@ video {
   grid-column: span 2 / span 2;
 }
 
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
-.col-span-12 {
-  grid-column: span 12 / span 12;
-}
-
-.row-span-2 {
-  grid-row: span 2 / span 2;
+.col-span-3 {
+  grid-column: span 3 / span 3;
 }
 
 .mx-4 {
@@ -589,24 +577,14 @@ video {
   margin-right: auto;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .ml-4 {
@@ -615,14 +593,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mb-64 {
-  margin-bottom: 16rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .flex {
@@ -641,18 +611,6 @@ video {
   height: 10rem;
 }
 
-.max-h-1 {
-  max-height: 0.25rem;
-}
-
-.max-h-20 {
-  max-height: 5rem;
-}
-
-.max-h-10 {
-  max-height: 2.5rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -665,28 +623,8 @@ video {
   width: 10rem;
 }
 
-.shrink {
-  flex-shrink: 1;
-}
-
 .cursor-default {
   cursor: default;
-}
-
-.auto-cols-auto {
-  grid-auto-columns: auto;
-}
-
-.auto-cols-min {
-  grid-auto-columns: min-content;
-}
-
-.auto-rows-auto {
-  grid-auto-rows: auto;
-}
-
-.auto-rows-min {
-  grid-auto-rows: min-content;
 }
 
 .grid-cols-2 {
@@ -695,10 +633,6 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -711,14 +645,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.gap-0 {
-  gap: 0px;
-}
-
-.gap-0\.5 {
-  gap: 0.125rem;
 }
 
 .overflow-hidden {
@@ -742,24 +668,14 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500 {
+.bg-gray-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -844,5 +760,15 @@ button:hover {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.name {
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+.hover\:bg-gray-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
