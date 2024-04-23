@@ -22,5 +22,5 @@ CSS properties
 5. text-align
 
 Javascript and Bootstrap Usage
-I used Javascript to 
+I used Javascript to as a greet button
 I used Bootstrap to center the content of the body

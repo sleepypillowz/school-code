@@ -2,7 +2,7 @@ body {
   background-color: #B5C18E;
 
 }
-a {
+.button {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
@@ -15,7 +15,7 @@ a {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-a:hover {
+.button:hover {
   background-color: #B99470;
 }
 
