@@ -19,12 +19,12 @@ History
   <tbody>
     {% for transaction in transactions %}
     <tr>
-      <td>{{ transactions.type }}</td>
-      <td>{{ transactions.symbol }}</td>
-      <td>{{ transactions.shares }}</td>
-      <td>{{ transactions.price }}</td>
-      <td>{{ transactions.shares * transactions.price }}</td>
-      <td>{{ transactions.timestamp }}</td>
+      <td>{{ transaction.type }}</td>
+      <td>{{ transaction.symbol }}</td>
+      <td>{{ transaction.shares }}</td>
+      <td>{{ transaction.price }}</td>
+      <td>{{ transaction.shares * transaction.price }}</td>
+      <td>{{ transaction.timestamp }}</td>
     </tr>
     {% endfor %}
   </tbody>
