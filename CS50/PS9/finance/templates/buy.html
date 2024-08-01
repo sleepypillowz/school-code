@@ -1,21 +1,17 @@
 {% extends "layout.html" %}
 
-{% block title %}
-Buy
-{% endblock %}
+{% block title %} Buy {% endblock %}
 
 {% block main %}
-<h1>Buy</h1>
-<form action="{{ url_for('buy') }}" method="post">
-
-  <label for="shares">Shares:</label>
-  <input type="text" name="shares" id="shares">
-  <br>
-
-  <label for="symbol">Symbol:</label>
-  <input type="text" name="symbol" id="symbol">
-  <br>
-
-  <button type="submit" class="btn btn-primary">Submit</button>
+<form action="/buy" method="post">
+  <div class="mb-3">
+    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="symbol" placeholder="Symbol"
+      type="text" ]*pattern="[a-zA-Z" required>
+  </div>
+  <div class="mb-3">
+    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="shares" placeholder="Shares"
+      type="number" required>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit</button>
 </form>
 {% endblock %}
