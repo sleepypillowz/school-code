@@ -1,0 +1,41 @@
+import math
+
+def create_transposition_key(keyword):
+    # Create a list of tuples (index, letter) from the keyword
+    key = [(i, char) for i, char in enumerate(keyword)]
+    # Sort the key based on the letter (alphabetically)
+    sorted_key = sorted(key, key=lambda x: x[1])
+    # Create a list of the original indices in sorted order
+    return [original_index for original_index, _ in sorted_key]
+
+def transposition_cipher(text, keyword):
+    key = create_transposition_key(keyword)
+    text_length = len(text)
+    # Calculate the number of columns and the number of rows needed
+    num_cols = len(keyword)
+    num_rows = math.ceil(text_length / num_cols)
+    
+    # Create the grid for the transposition cipher
+    grid = [''] * num_cols
+    for i in range(num_cols):
+        for j in range(num_rows):
+            index = i + j * num_cols
+            if index < text_length:
+                grid[i] += text[index]
+
+    # Create the encrypted text by reading the columns in the order defined by the sorted key
+    encrypted_text = ''.join(grid[key.index(i)] for i in range(num_cols))
+    return encrypted_text
+
+# List of words
+words = [
+    "assurance", "cybersecurity", "infinity", "sampling", 
+    "morning", "examination", "master", "system", 
+    "visual studio", "bachelor of science in information technology"
+]
+keyword = "METHODS"
+
+# Encrypt each word in the list using the transposition cipher
+for word in words:
+    encrypted_word = transposition_cipher(word, keyword)
+    print(f"Original: {word}, Encrypted: {encrypted_word}")
